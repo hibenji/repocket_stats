@@ -30,6 +30,8 @@ Give access to the config folder (where the database is stored):
 sudo chown nobody:nogroup /repocket_stats
 ```
 
+Things in `<>` should be changed, everything else can be leaved as is.
+
 `8070`: The port it will be hosted at. You can change this to whatever you want.
 
 `<Your nickname>`: The name you want to be displayed on the page.
