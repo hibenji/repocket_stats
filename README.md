@@ -4,8 +4,16 @@
 This is a pretty simple dockerized php page.
 It shows you the stats of your balance and device amount and displays it on a nice page with a few graphs.
 
-## How to use?
+## How does it work?
+It uses the repocket api to get the data and stores it in a database, once a minute.
+It then uses the database to display the data on the page.
+And the docker container uses the [alpine-php-webserver](https://github.com/erseco/alpine-php-webserver) docker image to host the page easily.
 
+## Example
+A screenshot of a sample looking dashbaord.
+![image](https://github.com/hibenji/repocket_stats/assets/65447501/37014f00-7b9e-4c42-9e8a-133838024ec6)
+
+## How to use?
 Using Docker:
 ```
 docker run -it -p 8070:8080 --rm \
