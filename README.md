@@ -18,9 +18,9 @@ Using Docker:
 ```
 docker run -d -p 8070:8080  \
 --name=repocket_stats \
--e NAME=<Your nickname> \
--e EMAIL=<repocket-email> \
--e PASSWORD=<repocket-password> \
+-e NAME="<Your nickname>" \
+-e EMAIL="<repocket-email>" \
+-e PASSWORD="<repocket-password>" \
 -v /repocket_stats:/var/www/html/config \
 hibenji/repocket_stats
 ```
