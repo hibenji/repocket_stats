@@ -22,7 +22,7 @@ docker run -it -p 8070:8080 --rm \
 -e EMAIL=<repocket-email> \
 -e PASSWORD=<repocket-password> \
 -v /repocket_stats:/var/www/html/config:777 \
-repocket_stats
+hibenji/repocket_stats
 ```
 
 Give access to the config folder (where the database is stored):
