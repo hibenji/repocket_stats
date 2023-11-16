@@ -96,7 +96,7 @@ WORKDIR /var/www/html
 EXPOSE 8080
 
 # set default environment variables of name, email and password
-ENV NAME="Repocket-------" \
+ENV NAME="Repocket" \
     EMAIL="repocket@email.com" \
     PASSWORD="password" \
     DB_NAME="repocket"
