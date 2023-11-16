@@ -11,7 +11,7 @@ And the docker container uses the [alpine-php-webserver](https://github.com/erse
 
 ## Example
 A screenshot of a sample looking dashbaord.
-![image](https://github.com/hibenji/repocket_stats/assets/65447501/37014f00-7b9e-4c42-9e8a-133838024ec6)
+![screencapture-api-benji-link-repocket-dash-php-2023-11-16-17_22_15 (1)](https://github.com/hibenji/repocket_stats/assets/65447501/01cfe8b8-a57d-4c7a-91d3-c12527932690)
 
 ## How to use?
 Using Docker:
